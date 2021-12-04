@@ -1,0 +1,27 @@
+{
+  "name": "fcc_jamstack",
+  "version": "1.0.0",
+  "description": "JAM stack fcc example project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobLopez-dev/FCC_JAMstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobLopez-dev/FCC_JAMstack/issues"
+  },
+  "homepage": "https://github.com/JacobLopez-dev/FCC_JAMstack#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
+  }
+}
